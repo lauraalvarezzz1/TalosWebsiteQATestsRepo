@@ -41,7 +41,7 @@ public class suite {
         WebDriverWait wait = new WebDriverWait(driver, 10);
 		System.out.println("Open test");
 	}
-
+System.out.println("hello world");
 	@AfterClass
 	public void afterClass() {
 		//driver.quit();
