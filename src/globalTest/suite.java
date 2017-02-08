@@ -87,7 +87,6 @@ public class suite {
 		
 		Assert.assertEquals("http://dev.talosdigital.com/hybris.html", driver.getCurrentUrl());
 	}
-	
 	@Test (priority=4, enabled=true)
 	public void contactUs() throws InterruptedException { //Contact Us
 		driver.get("http://dev.talosdigital.com");
